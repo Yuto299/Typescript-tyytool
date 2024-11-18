@@ -37,7 +37,7 @@ const cloth: {
   size: 'small' | 'medium' | 'large';
 } = {
   color: 'white',
-  size: 'large',
+  size: 'medium',
 };
 
 function add(num1: number, num2: number) {
