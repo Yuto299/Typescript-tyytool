@@ -64,3 +64,14 @@ function doubleAndHand(num: number, cb: (num: number) => void): void {
 doubleAndHand(21, (doubleNum) => {
   return doubleNum;
 });
+
+function echo(message: string): string | null {
+  return message;
+}
+let implictAny;
+implictAny = 'implictAny';
+
+let nullableMessage = echo('h1');
+if (nullableMessage) {
+  nullableMessage.toLocaleUpperCase();
+}

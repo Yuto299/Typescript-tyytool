@@ -49,3 +49,12 @@ function doubleAndHand(num, cb) {
 doubleAndHand(21, (doubleNum) => {
     return doubleNum;
 });
+function echo(message) {
+    return message;
+}
+let implictAny;
+implictAny = 'implictAny';
+let nullableMessage = echo('h1');
+if (nullableMessage) {
+    nullableMessage.toLocaleUpperCase();
+}
